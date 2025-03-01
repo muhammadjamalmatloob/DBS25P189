@@ -146,7 +146,7 @@
             Closebtn.TabIndex = 2;
             Closebtn.Text = "X";
             Closebtn.UseVisualStyleBackColor = false;
-            Closebtn.Click += close_Click_1;
+            Closebtn.Click += closebtn_Click;
             // 
             // button2
             // 

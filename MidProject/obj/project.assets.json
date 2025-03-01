@@ -204,11 +204,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\2nd Semester\\OOPL\\MidProject\\MidProject\\MidProject.csproj",
+      "projectUniqueName": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\MidProject.csproj",
       "projectName": "MidProject",
-      "projectPath": "D:\\2nd Semester\\OOPL\\MidProject\\MidProject\\MidProject.csproj",
+      "projectPath": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\MidProject.csproj",
       "packagesPath": "C:\\Users\\Jamal-Matloob\\.nuget\\packages\\",
-      "outputPath": "D:\\2nd Semester\\OOPL\\MidProject\\MidProject\\obj\\",
+      "outputPath": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "F:\\Installed_Softwares\\visual_studio\\comp\\NuGetPackages"
