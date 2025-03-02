@@ -37,7 +37,9 @@ namespace MidProject
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Dep_Head_Menu dep = new Dep_Head_Menu();
+            dep.Show();
+            
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

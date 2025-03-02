@@ -45,3 +45,4 @@ D:\2nd Semester\OOPL\DBMidProject\MidProject\bin\Debug\net8.0-windows\MySqlConne
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\net8.0-windows\MidProject.csproj.Up2Date
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\net8.0-windows\MidProject.genruntimeconfig.cache
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\net8.0-windows\ref\MidProject.dll
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\net8.0-windows\MidProject.Form2.resources
