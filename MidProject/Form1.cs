@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 namespace MidProject
 {
     public partial class Login : Form
@@ -34,12 +35,24 @@ namespace MidProject
         {
 
         }
+        public void OpenAndClose(Form Current, Form New)
+        {
+            // Show the new form
+            New.Show();
 
+            // Close the current form
+            Current.Hide(); 
+
+            // Event handler to show the previous form when the new form closes.
+            New.FormClosed += (s, args) =>
+            {
+                Current.Show();
+            };
+        }
         private void button2_Click(object sender, EventArgs e)
         {
-            Dep_Head_Menu dep = new Dep_Head_Menu();
-            dep.Show();
-            
+            Admin5 dep = new Admin5();
+            OpenAndClose(this, dep);
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

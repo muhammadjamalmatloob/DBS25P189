@@ -1,13 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Dep_Head_Menu.cs">
+    <Compile Update="Admin1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Admin7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DH1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DH2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DH3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DH4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DH5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DH6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DH7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Faculty1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Faculty2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Faculty3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Faculty4.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2.cs">
+    <Compile Update="Loading.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
