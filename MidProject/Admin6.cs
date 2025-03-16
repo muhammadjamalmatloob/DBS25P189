@@ -16,10 +16,5 @@ namespace MidProject
         {
             InitializeComponent();
         }
-
-        private void Admin6_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -1,19 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+
 namespace MidProject
 {
     internal static class Program
     {
         /// <summary>
-        ///  The main entry point for the application.
+        /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        
-        public static void Main() 
+        static void Main()
         {
-            ApplicationConfiguration.Initialize();
-            // Show the Loading form
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login());
-
         }
     }
 }

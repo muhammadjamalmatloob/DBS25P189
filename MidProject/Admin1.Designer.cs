@@ -29,457 +29,463 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Admin1));
-            panel2 = new Panel();
-            pictureBox7 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            button5 = new Button();
-            pictureBox1 = new PictureBox();
-            button9 = new Button();
-            pictureBox6 = new PictureBox();
-            pictureBox8 = new PictureBox();
-            button4 = new Button();
-            button8 = new Button();
-            pictureBox5 = new PictureBox();
-            pictureBox4 = new PictureBox();
-            button7 = new Button();
-            button6 = new Button();
-            button3 = new Button();
-            pictureBox3 = new PictureBox();
-            button2 = new Button();
-            panel1 = new Panel();
-            panel4 = new Panel();
-            button1 = new Button();
-            panel3 = new Panel();
-            profile = new Panel();
-            label1 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            pictureBox9 = new PictureBox();
-            label7 = new Label();
-            panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            SuspendLayout();
-            // 
-            // panel2
-            // 
-            panel2.Anchor = AnchorStyles.Bottom;
-            panel2.BackColor = SystemColors.ActiveCaption;
-            panel2.Controls.Add(pictureBox7);
-            panel2.Controls.Add(pictureBox2);
-            panel2.Controls.Add(button5);
-            panel2.Controls.Add(pictureBox1);
-            panel2.Controls.Add(button9);
-            panel2.Controls.Add(pictureBox6);
-            panel2.Controls.Add(pictureBox8);
-            panel2.Controls.Add(button4);
-            panel2.Controls.Add(button8);
-            panel2.Controls.Add(pictureBox5);
-            panel2.Controls.Add(pictureBox4);
-            panel2.Controls.Add(button7);
-            panel2.Controls.Add(button6);
-            panel2.Controls.Add(button3);
-            panel2.Controls.Add(pictureBox3);
-            panel2.Controls.Add(button2);
-            panel2.Location = new Point(0, 130);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(273, 431);
-            panel2.TabIndex = 84;
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.profile = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
             // 
             // pictureBox7
             // 
-            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.ImeMode = ImeMode.NoControl;
-            pictureBox7.Location = new Point(31, 166);
-            pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(30, 33);
-            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox7.TabIndex = 19;
-            pictureBox7.TabStop = false;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
+            this.pictureBox7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox7.Location = new System.Drawing.Point(24, 144);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(34, 29);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 19;
+            this.pictureBox7.TabStop = false;
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.ImeMode = ImeMode.NoControl;
-            pictureBox2.Location = new Point(31, 112);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(30, 33);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 18;
-            pictureBox2.TabStop = false;
-            // 
-            // button5
-            // 
-            button5.BackColor = SystemColors.ActiveCaption;
-            button5.Cursor = Cursors.Hand;
-            button5.FlatAppearance.BorderColor = SystemColors.InactiveCaption;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Segoe UI", 12F);
-            button5.ForeColor = SystemColors.ControlLightLight;
-            button5.ImeMode = ImeMode.NoControl;
-            button5.Location = new Point(20, 153);
-            button5.Name = "button5";
-            button5.Size = new Size(226, 57);
-            button5.TabIndex = 16;
-            button5.Text = "Update Faculty";
-            button5.UseVisualStyleBackColor = false;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox2.Location = new System.Drawing.Point(24, 97);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(34, 29);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.ImeMode = ImeMode.NoControl;
-            pictureBox1.Location = new Point(28, 6);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(40, 37);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 15;
-            pictureBox1.TabStop = false;
-            // 
-            // button9
-            // 
-            button9.BackColor = SystemColors.ActiveCaption;
-            button9.Cursor = Cursors.Hand;
-            button9.FlatAppearance.BorderColor = SystemColors.InactiveCaption;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Segoe UI", 12F);
-            button9.ForeColor = SystemColors.ControlLightLight;
-            button9.ImeMode = ImeMode.NoControl;
-            button9.Location = new Point(20, 104);
-            button9.Name = "button9";
-            button9.Size = new Size(226, 50);
-            button9.TabIndex = 17;
-            button9.Text = "Delete Faculty";
-            button9.UseVisualStyleBackColor = false;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox1.Location = new System.Drawing.Point(24, 5);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(34, 32);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 15;
+            this.pictureBox1.TabStop = false;
             // 
             // pictureBox6
             // 
-            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.ImeMode = ImeMode.NoControl;
-            pictureBox6.Location = new Point(28, 276);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(27, 23);
-            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox6.TabIndex = 15;
-            pictureBox6.TabStop = false;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox6.Location = new System.Drawing.Point(24, 239);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(34, 29);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 15;
+            this.pictureBox6.TabStop = false;
             // 
             // pictureBox8
             // 
-            pictureBox8.Image = Properties.Resources.logo_removebg_preview;
-            pictureBox8.ImeMode = ImeMode.NoControl;
-            pictureBox8.Location = new Point(31, 330);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(27, 23);
-            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox8.TabIndex = 7;
-            pictureBox8.TabStop = false;
-            // 
-            // button4
-            // 
-            button4.BackColor = SystemColors.ActiveCaption;
-            button4.Cursor = Cursors.Hand;
-            button4.FlatAppearance.BorderColor = SystemColors.InactiveCaption;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Segoe UI", 12F);
-            button4.ForeColor = SystemColors.ControlLightLight;
-            button4.ImeMode = ImeMode.NoControl;
-            button4.Location = new Point(20, 316);
-            button4.Name = "button4";
-            button4.Size = new Size(226, 50);
-            button4.TabIndex = 15;
-            button4.Text = "Profile";
-            button4.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            button8.BackColor = SystemColors.ActiveCaption;
-            button8.Cursor = Cursors.Hand;
-            button8.FlatAppearance.BorderColor = SystemColors.InactiveCaption;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Segoe UI", 12F);
-            button8.ForeColor = SystemColors.ControlLightLight;
-            button8.ImeMode = ImeMode.NoControl;
-            button8.Location = new Point(20, 258);
-            button8.Name = "button8";
-            button8.Size = new Size(226, 60);
-            button8.TabIndex = 8;
-            button8.Text = "Faculty Courses\r\nSchedule ";
-            button8.UseVisualStyleBackColor = false;
+            this.pictureBox8.Image = global::MidProject.Properties.Resources.logo_removebg_preview;
+            this.pictureBox8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox8.Location = new System.Drawing.Point(28, 281);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(31, 29);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 7;
+            this.pictureBox8.TabStop = false;
             // 
             // pictureBox5
             // 
-            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.ImeMode = ImeMode.NoControl;
-            pictureBox5.Location = new Point(28, 62);
-            pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(30, 33);
-            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox5.TabIndex = 9;
-            pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.ImeMode = ImeMode.NoControl;
-            pictureBox4.Location = new Point(29, 224);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(27, 23);
-            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox4.TabIndex = 9;
-            pictureBox4.TabStop = false;
-            // 
-            // button7
-            // 
-            button7.BackColor = SystemColors.ActiveCaption;
-            button7.Cursor = Cursors.Hand;
-            button7.FlatAppearance.BorderColor = SystemColors.InactiveCaption;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Segoe UI", 12F);
-            button7.ForeColor = SystemColors.ControlLightLight;
-            button7.ImeMode = ImeMode.NoControl;
-            button7.Location = new Point(20, 0);
-            button7.Name = "button7";
-            button7.Size = new Size(226, 50);
-            button7.TabIndex = 7;
-            button7.Text = "Faculty Profiles";
-            button7.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            button6.BackColor = SystemColors.ActiveCaption;
-            button6.Cursor = Cursors.Hand;
-            button6.FlatAppearance.BorderColor = SystemColors.InactiveCaption;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Segoe UI", 12F);
-            button6.ForeColor = SystemColors.ControlLightLight;
-            button6.ImeMode = ImeMode.NoControl;
-            button6.Location = new Point(20, 49);
-            button6.Name = "button6";
-            button6.Size = new Size(226, 57);
-            button6.TabIndex = 7;
-            button6.Text = "Add Faculty";
-            button6.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            button3.BackColor = SystemColors.ActiveCaption;
-            button3.Cursor = Cursors.Hand;
-            button3.FlatAppearance.BorderColor = SystemColors.InactiveCaption;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Segoe UI", 12F);
-            button3.ForeColor = SystemColors.ControlLightLight;
-            button3.ImeMode = ImeMode.NoControl;
-            button3.Location = new Point(20, 209);
-            button3.Name = "button3";
-            button3.Size = new Size(226, 51);
-            button3.TabIndex = 7;
-            button3.Text = "    Approved Requests";
-            button3.UseVisualStyleBackColor = false;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox5.Location = new System.Drawing.Point(24, 54);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(34, 29);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.ImeMode = ImeMode.NoControl;
-            pictureBox3.Location = new Point(31, 377);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(27, 23);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 4;
-            pictureBox3.TabStop = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = SystemColors.ActiveCaption;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.BorderColor = SystemColors.InactiveCaption;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe UI", 12F);
-            button2.ForeColor = SystemColors.ControlLightLight;
-            button2.ImeMode = ImeMode.NoControl;
-            button2.Location = new Point(20, 365);
-            button2.Name = "button2";
-            button2.Size = new Size(226, 50);
-            button2.TabIndex = 6;
-            button2.Text = "Logout";
-            button2.UseVisualStyleBackColor = false;
-            // 
-            // panel1
-            // 
-            panel1.Anchor = AnchorStyles.None;
-            panel1.BackColor = SystemColors.HotTrack;
-            panel1.Controls.Add(panel4);
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(panel3);
-            panel1.Controls.Add(profile);
-            panel1.Controls.Add(label1);
-            panel1.Location = new Point(-27, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1039, 130);
-            panel1.TabIndex = 83;
-            // 
-            // panel4
-            // 
-            panel4.Location = new Point(300, 130);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(711, 431);
-            panel4.TabIndex = 32;
-            // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.HotTrack;
-            button1.FlatAppearance.BorderColor = SystemColors.InactiveCaption;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold);
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.ImeMode = ImeMode.NoControl;
-            button1.Location = new Point(971, 0);
-            button1.Name = "button1";
-            button1.Size = new Size(40, 37);
-            button1.TabIndex = 5;
-            button1.Text = "X";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // panel3
-            // 
-            panel3.Location = new Point(300, 127);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(711, 431);
-            panel3.TabIndex = 31;
-            // 
-            // profile
-            // 
-            profile.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            profile.Location = new Point(7827, 400);
-            profile.Name = "profile";
-            profile.Size = new Size(788, 427);
-            profile.TabIndex = 3;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 26.25F);
-            label1.ForeColor = SystemColors.ControlLightLight;
-            label1.ImeMode = ImeMode.NoControl;
-            label1.Location = new Point(117, 35);
-            label1.Name = "label1";
-            label1.Size = new Size(791, 47);
-            label1.TabIndex = 0;
-            label1.Text = "Faculty Workload and Resource Allocation System";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Segoe UI", 15.75F);
-            label5.ForeColor = SystemColors.HotTrack;
-            label5.ImeMode = ImeMode.NoControl;
-            label5.Location = new Point(475, 245);
-            label5.Name = "label5";
-            label5.Size = new Size(123, 30);
-            label5.TabIndex = 88;
-            label5.Text = "Faculty Role";
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox3.Location = new System.Drawing.Point(27, 321);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(31, 32);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
             // 
             // label6
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 15.75F);
-            label6.ForeColor = SystemColors.HotTrack;
-            label6.ImeMode = ImeMode.NoControl;
-            label6.Location = new Point(475, 213);
-            label6.Name = "label6";
-            label6.Size = new Size(120, 30);
-            label6.TabIndex = 87;
-            label6.Text = "Admin Role";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 15.75F);
+            this.label6.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label6.Location = new System.Drawing.Point(437, 199);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(120, 30);
+            this.label6.TabIndex = 93;
+            this.label6.Text = "Admin Role";
             // 
             // pictureBox9
             // 
-            pictureBox9.Image = Properties.Resources.logo_removebg_preview;
-            pictureBox9.ImeMode = ImeMode.NoControl;
-            pictureBox9.Location = new Point(328, 180);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(100, 95);
-            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox9.TabIndex = 85;
-            pictureBox9.TabStop = false;
+            this.pictureBox9.Image = global::MidProject.Properties.Resources.logo_removebg_preview;
+            this.pictureBox9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox9.Location = new System.Drawing.Point(327, 175);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(86, 82);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox9.TabIndex = 91;
+            this.pictureBox9.TabStop = false;
             // 
             // label7
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 15.75F);
-            label7.ForeColor = SystemColors.HotTrack;
-            label7.ImeMode = ImeMode.NoControl;
-            label7.Location = new Point(475, 180);
-            label7.Name = "label7";
-            label7.Size = new Size(106, 30);
-            label7.TabIndex = 86;
-            label7.Text = "Username";
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 15.75F);
+            this.label7.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label7.Location = new System.Drawing.Point(437, 169);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(106, 30);
+            this.label7.TabIndex = 92;
+            this.label7.Text = "Username";
+            // 
+            // panel4
+            // 
+            this.panel4.Location = new System.Drawing.Point(300, 127);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(711, 431);
+            this.panel4.TabIndex = 32;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button1.Location = new System.Drawing.Point(977, 0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(34, 32);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.Location = new System.Drawing.Point(300, 130);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(711, 431);
+            this.panel3.TabIndex = 31;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 15.75F);
+            this.label5.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label5.Location = new System.Drawing.Point(437, 227);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(123, 30);
+            this.label5.TabIndex = 94;
+            this.label5.Text = "Faculty Role";
+            // 
+            // profile
+            // 
+            this.profile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.profile.Location = new System.Drawing.Point(6857, 364);
+            this.profile.Name = "profile";
+            this.profile.Size = new System.Drawing.Size(675, 370);
+            this.profile.TabIndex = 3;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
+            this.pictureBox4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.pictureBox4.Location = new System.Drawing.Point(25, 194);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(33, 24);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 9;
+            this.pictureBox4.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.profile);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(-27, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1039, 130);
+            this.panel1.TabIndex = 89;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 26.25F);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label1.Location = new System.Drawing.Point(117, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(791, 47);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Faculty Workload and Resource Allocation System";
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button5.Location = new System.Drawing.Point(17, 133);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(239, 49);
+            this.button5.TabIndex = 16;
+            this.button5.Text = "Update Faculty";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button9.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button9.Location = new System.Drawing.Point(17, 90);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(239, 43);
+            this.button9.TabIndex = 17;
+            this.button9.Text = "Delete Faculty";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button4.Location = new System.Drawing.Point(17, 274);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(239, 43);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "Profile";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button8.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button8.Location = new System.Drawing.Point(17, 224);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(239, 52);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Faculty Courses\r\nSchedule ";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button7.Location = new System.Drawing.Point(17, 0);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(239, 43);
+            this.button7.TabIndex = 7;
+            this.button7.Text = "Faculty Profiles";
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button6.Location = new System.Drawing.Point(17, 42);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(239, 49);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "Add Faculty";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button3.Location = new System.Drawing.Point(17, 181);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(239, 44);
+            this.button3.TabIndex = 7;
+            this.button3.Text = "    Approved Requests";
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button2.Location = new System.Drawing.Point(17, 316);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(239, 43);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "Logout";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel2.Controls.Add(this.pictureBox7);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.button5);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.button9);
+            this.panel2.Controls.Add(this.pictureBox6);
+            this.panel2.Controls.Add(this.pictureBox8);
+            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.button8);
+            this.panel2.Controls.Add(this.pictureBox5);
+            this.panel2.Controls.Add(this.pictureBox4);
+            this.panel2.Controls.Add(this.button7);
+            this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.button3);
+            this.panel2.Controls.Add(this.pictureBox3);
+            this.panel2.Controls.Add(this.button2);
+            this.panel2.Location = new System.Drawing.Point(0, 130);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(273, 431);
+            this.panel2.TabIndex = 90;
             // 
             // Admin1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(984, 561);
-            Controls.Add(label5);
-            Controls.Add(label6);
-            Controls.Add(pictureBox9);
-            Controls.Add(label7);
-            Controls.Add(panel2);
-            Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.None;
-            Name = "Admin1";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Admin1";
-            panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(984, 561);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(984, 561);
+            this.MinimumSize = new System.Drawing.Size(984, 561);
+            this.Name = "Admin1";
+            this.Text = "Admin1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
 
-        private Panel panel2;
-        private PictureBox pictureBox7;
-        private PictureBox pictureBox2;
-        private Button button5;
-        private PictureBox pictureBox1;
-        private Button button9;
-        private PictureBox pictureBox6;
-        private PictureBox pictureBox8;
-        private Button button4;
-        private Button button8;
-        private PictureBox pictureBox5;
-        private PictureBox pictureBox4;
-        private Button button7;
-        private Button button6;
-        private Button button3;
-        private PictureBox pictureBox3;
-        private Button button2;
-        private Panel panel1;
-        private Panel panel4;
-        private Button button1;
-        private Panel panel3;
-        private Panel profile;
-        private Label label1;
-        private Label label5;
-        private Label label6;
-        private PictureBox pictureBox9;
-        private Label label7;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel profile;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel2;
     }
 }

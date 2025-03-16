@@ -13,7 +13,7 @@ namespace MidProject
     {
         private String serverName = "127.0.0.1";
         private String port = "3306";
-        private String databaseName = "ProjectB";
+        private String databaseName = "midproject";
         private String databaseUser = "root";
         private String databasePassword = "jamal251@uet";
 
@@ -31,7 +31,7 @@ namespace MidProject
         }
         public MySqlConnection getConnection()
         {
-            string connectionString = $"server={serverName};port={port};user={databaseUser};database ={ databaseName}; password ={ databasePassword}; SslMode = Required; "; 
+            string connectionString = $"server={serverName};port={port};user={databaseUser};database ={databaseName}; password ={databasePassword}; SslMode = Required; ";
             var connection = new
 MySqlConnection(connectionString);
             connection.Open();
