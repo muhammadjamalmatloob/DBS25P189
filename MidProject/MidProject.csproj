@@ -122,18 +122,23 @@
     <Compile Include="Admin1.Designer.cs">
       <DependentUpon>Admin1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin1BL.cs" />
+    <Compile Include="Admin1DL.cs" />
     <Compile Include="Admin2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Admin2.Designer.cs">
       <DependentUpon>Admin2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin2BL.cs" />
+    <Compile Include="Admin2DL.cs" />
     <Compile Include="Admin3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Admin3.Designer.cs">
       <DependentUpon>Admin3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin3DL.cs" />
     <Compile Include="Admin4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +157,18 @@
     <Compile Include="Admin6.Designer.cs">
       <DependentUpon>Admin6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin7.Designer.cs">
+      <DependentUpon>Admin7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin8.Designer.cs">
+      <DependentUpon>Admin8.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +181,36 @@
     </Compile>
     <Compile Include="DepHead.Designer.cs">
       <DependentUpon>DepHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepHead1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepHead1.Designer.cs">
+      <DependentUpon>DepHead1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepHead2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepHead2.Designer.cs">
+      <DependentUpon>DepHead2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepHead3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepHead3.Designer.cs">
+      <DependentUpon>DepHead3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepHead4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepHead4.Designer.cs">
+      <DependentUpon>DepHead4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DepHead5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DepHead5.Designer.cs">
+      <DependentUpon>DepHead5.cs</DependentUpon>
     </Compile>
     <Compile Include="Faculty1.cs">
       <SubType>Form</SubType>
@@ -195,9 +242,12 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginBL.cs" />
+    <Compile Include="LoginDL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="User.cs" />
     <EmbeddedResource Include="Admin1.resx">
       <DependentUpon>Admin1.cs</DependentUpon>
     </EmbeddedResource>
@@ -216,11 +266,32 @@
     <EmbeddedResource Include="Admin6.resx">
       <DependentUpon>Admin6.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Admin7.resx">
+      <DependentUpon>Admin7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin8.resx">
+      <DependentUpon>Admin8.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminProfile.resx">
       <DependentUpon>AdminProfile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DepHead.resx">
       <DependentUpon>DepHead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepHead1.resx">
+      <DependentUpon>DepHead1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepHead2.resx">
+      <DependentUpon>DepHead2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepHead3.resx">
+      <DependentUpon>DepHead3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepHead4.resx">
+      <DependentUpon>DepHead4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DepHead5.resx">
+      <DependentUpon>DepHead5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Faculty1.resx">
       <DependentUpon>Faculty1.cs</DependentUpon>
@@ -246,7 +317,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="User.rdlc" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Admin1BL.datasource" />
+    <None Include="Properties\DataSources\User.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -275,5 +349,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

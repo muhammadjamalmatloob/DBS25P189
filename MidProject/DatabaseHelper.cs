@@ -48,7 +48,6 @@ getConnection()))
                     return command.ExecuteReader();
                 }
             }
-
         }
 
         public int Update(string query)

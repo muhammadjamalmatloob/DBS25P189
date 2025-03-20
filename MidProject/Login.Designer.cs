@@ -124,7 +124,6 @@ namespace MidProject
             this.button3.TabIndex = 6;
             this.button3.Text = "Forgot Password?";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += Button3_Click;
             // 
             // Closebtn
             // 
@@ -155,7 +154,7 @@ namespace MidProject
             this.button2.TabIndex = 5;
             this.button2.Text = "Login";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += Button2_Click;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // panel4
             // 
@@ -220,11 +219,12 @@ namespace MidProject
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(72, 108);
+            this.label2.Location = new System.Drawing.Point(52, 113);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(216, 30);
             this.label2.TabIndex = 2;
             this.label2.Text = "Login to your account";
+            
             // 
             // pictureBox1
             // 
@@ -263,6 +263,11 @@ namespace MidProject
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
+        }
+
+        private void Closebtn_Click3(object sender, System.EventArgs e)
+        {
+            throw new System.NotImplementedException();
         }
 
         private void Button3_Click1(object sender, System.EventArgs e)

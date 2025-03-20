@@ -12,9 +12,13 @@ namespace MidProject
 {
     public partial class Admin1 : Form
     {
-        public Admin1()
+        public Admin1(string username)
         {
             InitializeComponent();
+            Admin1DL.LoadData(username);
+            this.dataGridView1.DataSource = Admin1DL.faculties;
         }
+
+
     }
 }

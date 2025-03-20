@@ -199,8 +199,15 @@ D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Admin3.resourc
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Admin4.resources
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Admin5.resources
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Admin6.resources
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Admin7.resources
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Admin8.resources
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.AdminProfile.resources
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.DepHead.resources
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.DepHead1.resources
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.DepHead2.resources
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.DepHead3.resources
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.DepHead4.resources
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.DepHead5.resources
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Faculty1.resources
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Faculty2.resources
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Faculty3.resources
