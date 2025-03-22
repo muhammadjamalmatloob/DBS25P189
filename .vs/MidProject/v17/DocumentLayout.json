@@ -3,40 +3,160 @@
   "WorkspaceRootPath": "D:\\2nd Semester\\OOPL\\DBMidProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin3dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin3dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|D:\\2nd Semester\\OOPL\\DBMidProject\\midproject\\admin3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\passwordreset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\passwordreset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|D:\\2nd Semester\\OOPL\\DBMidProject\\midproject\\admin3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\passwordreset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|D:\\2nd Semester\\OOPL\\DBMidProject\\midproject\\admin2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin2dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin2dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin2bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\passwordresetdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\passwordresetdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\logindl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\logindl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead2dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead2dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead2bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead2bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\facultyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\facultyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\deaphead1dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\deaphead1dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\deaphead1bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\deaphead1bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\dephead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin10dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin10dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin1dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin1dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin1bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin1bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin10.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin10.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|D:\\2nd Semester\\OOPL\\DBMidProject\\midproject\\admin2bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin2bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|D:\\2nd Semester\\OOPL\\DBMidProject\\midproject\\admin2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|D:\\2nd Semester\\OOPL\\DBMidProject\\midproject\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\adminprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|D:\\2nd Semester\\OOPL\\DBMidProject\\midproject\\dephead1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\dephead1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin10bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin10bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin6dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin6dl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin6bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin6bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|d:\\2nd semester\\oopl\\dbmidproject\\midproject\\admin6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{56E149FF-16B5-4A8A-A249-53B22A711927}|MidProject\\MidProject.csproj|solutionrelative:midproject\\admin6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,88 +166,495 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Admin2.cs [Design]",
-              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin2.cs",
-              "RelativeDocumentMoniker": "MidProject\\Admin2.cs",
-              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin2.cs [Design]",
-              "RelativeToolTip": "MidProject\\Admin2.cs [Design]",
+              "Title": "DepHead1.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead1.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead1.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead1.cs",
+              "RelativeToolTip": "MidProject\\DepHead1.cs",
+              "ViewState": "AgIAACUAAACAzMzMzMwuwDcAAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T16:47:35.262Z",
+              "WhenOpened": "2025-03-21T11:51:40.311Z",
               "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Admin3DL.cs",
-              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin3DL.cs",
-              "RelativeDocumentMoniker": "MidProject\\Admin3DL.cs",
-              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin3DL.cs",
-              "RelativeToolTip": "MidProject\\Admin3DL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T06:09:22.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Admin2DL.cs",
-              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin2DL.cs",
-              "RelativeDocumentMoniker": "MidProject\\Admin2DL.cs",
-              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin2DL.cs",
-              "RelativeToolTip": "MidProject\\Admin2DL.cs",
-              "ViewState": "AgIAAAoAAAAAMzMzMzMLwBUAAAAgAAAAAAAAAA==",
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "MidProject\\Login.Designer.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Login.Designer.cs",
+              "RelativeToolTip": "MidProject\\Login.Designer.cs",
+              "ViewState": "AgIAAGwAAAAAwMzMzMz8v3QAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T16:51:07.353Z",
+              "WhenOpened": "2025-03-22T01:57:43.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Admin2.cs",
-              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin2.cs",
-              "RelativeDocumentMoniker": "MidProject\\Admin2.cs",
-              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin2.cs",
-              "RelativeToolTip": "MidProject\\Admin2.cs",
-              "ViewState": "AgIAAFcAAAAAyMzMzMz8v3YAAAAVAAAAAAAAAA==",
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Login.cs",
+              "RelativeDocumentMoniker": "MidProject\\Login.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Login.cs",
+              "RelativeToolTip": "MidProject\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:00:33.34Z",
+              "WhenOpened": "2025-03-22T01:56:39.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "MidProject\\DatabaseHelper.cs",
-              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DatabaseHelper.cs",
-              "RelativeToolTip": "MidProject\\DatabaseHelper.cs",
-              "ViewState": "AgIAABkAAAAAZmZmZmbmvy8AAAAUAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PasswordReset.Designer.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\PasswordReset.Designer.cs",
+              "RelativeDocumentMoniker": "MidProject\\PasswordReset.Designer.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\PasswordReset.Designer.cs",
+              "RelativeToolTip": "MidProject\\PasswordReset.Designer.cs",
+              "ViewState": "AgIAABsAAACAmZmZmZktwKQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T06:29:19.166Z",
+              "WhenOpened": "2025-03-22T01:54:55.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PasswordReset.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\PasswordReset.cs",
+              "RelativeDocumentMoniker": "MidProject\\PasswordReset.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\PasswordReset.cs",
+              "RelativeToolTip": "MidProject\\PasswordReset.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T01:21:03.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PasswordReset.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\PasswordReset.cs",
+              "RelativeDocumentMoniker": "MidProject\\PasswordReset.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\PasswordReset.cs [Design]",
+              "RelativeToolTip": "MidProject\\PasswordReset.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T01:06:24.072Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepHead2DL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead2DL.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead2DL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead2DL.cs",
+              "RelativeToolTip": "MidProject\\DepHead2DL.cs",
+              "ViewState": "AgIAAAIAAACAMzMzMzMbwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T00:25:39.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Login.cs",
+              "RelativeDocumentMoniker": "MidProject\\Login.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Login.cs [Design]",
+              "RelativeToolTip": "MidProject\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T01:06:42.884Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PasswordResetDL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\PasswordResetDL.cs",
+              "RelativeDocumentMoniker": "MidProject\\PasswordResetDL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\PasswordResetDL.cs",
+              "RelativeToolTip": "MidProject\\PasswordResetDL.cs",
+              "ViewState": "AgIAAAgAAABgZmZmZmYkwAwAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T01:42:46.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "LoginDL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\LoginDL.cs",
+              "RelativeDocumentMoniker": "MidProject\\LoginDL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\LoginDL.cs",
+              "RelativeToolTip": "MidProject\\LoginDL.cs",
+              "ViewState": "AgIAABAAAACAmZmZmZkvwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:37:45.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepHead2BL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead2BL.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead2BL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead2BL.cs",
+              "RelativeToolTip": "MidProject\\DepHead2BL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T17:00:19.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DepHead2.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead2.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead2.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead2.cs [Design]",
+              "RelativeToolTip": "MidProject\\DepHead2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T16:53:11.32Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FacultyProfile.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\FacultyProfile.cs",
+              "RelativeDocumentMoniker": "MidProject\\FacultyProfile.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\FacultyProfile.cs [Design]",
+              "RelativeToolTip": "MidProject\\FacultyProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:07:08.734Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DepHead2.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead2.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead2.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead2.cs",
+              "RelativeToolTip": "MidProject\\DepHead2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T16:57:18.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeapHead1DL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DeapHead1DL.cs",
+              "RelativeDocumentMoniker": "MidProject\\DeapHead1DL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DeapHead1DL.cs",
+              "RelativeToolTip": "MidProject\\DeapHead1DL.cs",
+              "ViewState": "AgIAABQAAADAzMzMzMwmwCUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:33:33.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DepHead.Designer.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead.Designer.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead.Designer.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead.Designer.cs",
+              "RelativeToolTip": "MidProject\\DepHead.Designer.cs",
+              "ViewState": "AgIAAFUBAAAA9v////8vwA8BAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:32:49.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "DepHead1.cs [Design]",
               "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead1.cs",
               "RelativeDocumentMoniker": "MidProject\\DepHead1.cs",
               "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead1.cs [Design]",
               "RelativeToolTip": "MidProject\\DepHead1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:03:30.994Z",
+              "WhenOpened": "2025-03-21T11:26:06.861Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
+              "Title": "DepHead1.Designer.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead1.Designer.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead1.Designer.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead1.Designer.cs",
+              "RelativeToolTip": "MidProject\\DepHead1.Designer.cs",
+              "ViewState": "AgIAAFEAAAAAxszMzEwYwAcBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T12:43:40.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DepHead4.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead4.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead4.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead4.cs [Design]",
+              "RelativeToolTip": "MidProject\\DepHead4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T15:54:27.982Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DeapHead1BL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DeapHead1BL.cs",
+              "RelativeDocumentMoniker": "MidProject\\DeapHead1BL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DeapHead1BL.cs",
+              "RelativeToolTip": "MidProject\\DeapHead1BL.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:27:53.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DepHead.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead.cs",
+              "RelativeToolTip": "MidProject\\DepHead.cs",
+              "ViewState": "AgIAAD8AAADAzMzMzMw6wEUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:17:02.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DepHead.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead.cs",
+              "RelativeDocumentMoniker": "MidProject\\DepHead.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\DepHead.cs [Design]",
+              "RelativeToolTip": "MidProject\\DepHead.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:16:36.71Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Admin1.Designer.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin1.Designer.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin1.Designer.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin1.Designer.cs",
+              "RelativeToolTip": "MidProject\\Admin1.Designer.cs",
+              "ViewState": "AgIAAL0BAAAAxszMzMwuwMYBAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T04:15:32.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Admin1BL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin1BL.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin1BL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin1BL.cs",
+              "RelativeToolTip": "MidProject\\Admin1BL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:52:39.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Admin1DL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin1DL.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin1DL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin1DL.cs",
+              "RelativeToolTip": "MidProject\\Admin1DL.cs",
+              "ViewState": "AgIAABEAAACgzMzMzMwmwBMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:52:41.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Admin1.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin1.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin1.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin1.cs",
+              "RelativeToolTip": "MidProject\\Admin1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:52:31.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Admin10.Designer.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10.Designer.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin10.Designer.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10.Designer.cs",
+              "RelativeToolTip": "MidProject\\Admin10.Designer.cs",
+              "ViewState": "AgIAACoAAACAmZmZmZkkwMcAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:46:25.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Admin10.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin10.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10.cs",
+              "RelativeToolTip": "MidProject\\Admin10.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAiwE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:40:04.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Admin4.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin4.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin4.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin4.cs [Design]",
+              "RelativeToolTip": "MidProject\\Admin4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:39:56.421Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Admin10DL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10DL.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin10DL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10DL.cs",
+              "RelativeToolTip": "MidProject\\Admin10DL.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:29:37.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Admin10BL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10BL.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin10BL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10BL.cs",
+              "RelativeToolTip": "MidProject\\Admin10BL.cs",
+              "ViewState": "AgIAAAIAAACAmZmZmZkRwAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:28:16.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdminProfile.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\AdminProfile.cs",
+              "RelativeDocumentMoniker": "MidProject\\AdminProfile.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\AdminProfile.cs",
+              "RelativeToolTip": "MidProject\\AdminProfile.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAApwHwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:05:49.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AdminProfile.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\AdminProfile.cs",
+              "RelativeDocumentMoniker": "MidProject\\AdminProfile.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\AdminProfile.cs [Design]",
+              "RelativeToolTip": "MidProject\\AdminProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T03:01:42.988Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Admin6.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin6.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin6.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin6.cs",
+              "RelativeToolTip": "MidProject\\Admin6.cs",
+              "ViewState": "AgIAAA8AAAAAmpmZmZkdwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:45:16.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Admin6DL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin6DL.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin6DL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin6DL.cs",
+              "RelativeToolTip": "MidProject\\Admin6DL.cs",
+              "ViewState": "AgIAAAEAAADYzMzMzMwgwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:38:01.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Admin6.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin6.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin6.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin6.cs [Design]",
+              "RelativeToolTip": "MidProject\\Admin6.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:30:06.16Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Admin6BL.cs",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin6BL.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin6BL.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin6BL.cs",
+              "RelativeToolTip": "MidProject\\Admin6BL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:28:55.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Admin10.cs [Design]",
+              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10.cs",
+              "RelativeDocumentMoniker": "MidProject\\Admin10.cs",
+              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin10.cs [Design]",
+              "RelativeToolTip": "MidProject\\Admin10.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T02:20:48.62Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "Admin2BL.cs",
               "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin2BL.cs",
               "RelativeDocumentMoniker": "MidProject\\Admin2BL.cs",
@@ -137,31 +664,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T16:54:01.237Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Admin3.cs",
-              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin3.cs",
-              "RelativeDocumentMoniker": "MidProject\\Admin3.cs",
-              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin3.cs",
-              "RelativeToolTip": "MidProject\\Admin3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T16:54:25.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Admin3.cs [Design]",
-              "DocumentMoniker": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin3.cs",
-              "RelativeDocumentMoniker": "MidProject\\Admin3.cs",
-              "ToolTip": "D:\\2nd Semester\\OOPL\\DBMidProject\\MidProject\\Admin3.cs [Design]",
-              "RelativeToolTip": "MidProject\\Admin3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T16:51:29.437Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

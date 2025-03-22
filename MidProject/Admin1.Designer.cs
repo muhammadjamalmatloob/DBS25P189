@@ -452,6 +452,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(648, 310);
             this.dataGridView1.TabIndex = 91;
+            this.dataGridView1.CellValueChanged += DataGridView2_CellValueChanged;
             // 
             // label7
             // 

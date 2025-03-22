@@ -35,7 +35,7 @@ namespace MidProject
         private void button12_Click(object sender, EventArgs e)
         {
             string username = textBox3.Text;
-            if (username == null)
+            if (username == null || username == "")
             {
                 MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;

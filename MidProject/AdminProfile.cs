@@ -112,5 +112,17 @@ namespace MidProject
             this.Hide();
             new Admin8().Show();
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin9().Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin10().Show();
+        }
     }
 }

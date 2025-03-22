@@ -83,16 +83,18 @@ namespace MidProject
         
         private void Closebtn_Click1(object sender, EventArgs e)
         {
-            Application.Exit(); // Close the application
+            Application.Exit(); 
         }
 
         
         private void Button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Please contact the administrator to reset your password.", "Forgot Password", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
+            new PasswordReset().Show();
 
         }
 
+        
     }
 }
     

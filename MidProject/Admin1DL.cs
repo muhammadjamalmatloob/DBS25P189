@@ -22,5 +22,36 @@ namespace MidProject
                 faculties.Add(new Admin1BL(reader["username"].ToString(), reader["name"].ToString(), reader["email"].ToString(), reader["contact"].ToString(), reader["designation"].ToString(), reader["research_area"].ToString(), Convert.ToInt32(reader["total_teaching_hours"])));
             }
         }
+        public static int Update(string colname, string item, int id)
+        {
+            string query;
+            int row;
+            if (colname == "username")
+            {
+                query = $"Update users set {colname} = '{item}' where user_id = (Select user_id From faculty Where faculty_id = {id + 1});";
+                row = DatabaseHelper.Instance.Update(query);
+                return row;
+            }
+            else if (colname == "email")
+            {
+                query = $"Update users set {colname} = '{item}' where user_id = (Select user_id From faculty Where faculty_id = {id + 1});" +
+                    $" Update faculty f set {colname} = '{item}' where f.faculty_id = {id + 1}";
+                row = DatabaseHelper.Instance.Update(query);
+                return row;
+            }
+            else if (colname == "contact" || colname == "research_area" || colname == "name")
+            {
+                query = $"Update faculty f set {colname} = '{item}' where f.faculty_id = {id + 1};";
+                row = DatabaseHelper.Instance.Update(query);
+                return row;
+            }
+            else if (colname == "designation")
+            {
+                query = $"Update faculty set designation_id = (Select lookup_id from lookup Where value = '{item}') where faculty_id = {id + 1};";
+                row = DatabaseHelper.Instance.Update(query);
+                return row;
+            }
+            return 0;
+        }
     }
 }

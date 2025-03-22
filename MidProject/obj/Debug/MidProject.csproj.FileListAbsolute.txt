@@ -219,3 +219,6 @@ D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.csproj.CoreCom
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.csproj.Up2Date
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.exe
 D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.pdb
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Admin10.resources
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.Admin9.resources
+D:\2nd Semester\OOPL\DBMidProject\MidProject\obj\Debug\MidProject.PasswordReset.resources

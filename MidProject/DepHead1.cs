@@ -10,21 +10,22 @@ namespace MidProject
         public DepHead1()
         {
             InitializeComponent();
-            // Attach event handlers
-            this.button10.Click += new EventHandler(button10_Click);
-            this.Load += new EventHandler(DepHead1_Load);
+            LoadYears();
+            DeapHead1DL.LoadData();
+            dataGridView1.DataSource = DeapHead1DL.faculty_courses;
+            
         }
 
-        // Event handler for the "Assign" button click
+        
         private void button10_Click(object sender, EventArgs e)
         {
-            string courseName = textBox3.Text;
+            string courseName = textBox1.Text;
             string courseType = textBox2.Text;
-            string facultyMember = textBox1.Text;
+            string facultyMember = textBox3.Text;
             string semester = comboBox3.SelectedItem?.ToString();
             string year = comboBox4.SelectedItem?.ToString();
 
-            // Validate input fields
+            
             if (string.IsNullOrEmpty(courseName) || string.IsNullOrEmpty(courseType) ||
                 string.IsNullOrEmpty(facultyMember) || string.IsNullOrEmpty(semester) ||
                 string.IsNullOrEmpty(year))
@@ -35,15 +36,12 @@ namespace MidProject
 
             try
             {
-                // Insert data into the database
-                string query = $"INSERT INTO faculty_courses (faculty_id, course_id, semester_id) " +
-                               $"VALUES ((SELECT faculty_id FROM faculty WHERE name = {facultyMember}), " +
-                               $"(SELECT course_id FROM courses WHERE course_name = {courseName}), " +
-                               $"(SELECT semester_id FROM semesters WHERE term = @semester AND year = {Convert.ToInt32(year)}))";
 
-                int rowsAffected = DatabaseHelper.Instance.Update(query);
 
-                if (rowsAffected > 0)
+                int r = DeapHead1DL.AddFacultyCourse(new DeapHead1BL(facultyMember, courseName, courseType, semester, Convert.ToInt32(year)));
+                r = DeapHead1DL.UpdateTeachingHours(new DeapHead1BL(facultyMember, courseName, courseType, semester, Convert.ToInt32(year)));
+
+                if (r > 0)
                 {
                     MessageBox.Show("Course assigned successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     ClearForm();
@@ -59,7 +57,7 @@ namespace MidProject
             }
         }
 
-        // Method to clear the form fields
+        
         private void ClearForm()
         {
             textBox3.Clear();
@@ -69,47 +67,23 @@ namespace MidProject
             comboBox4.SelectedIndex = -1;
         }
 
-        // Event handler for form load
+        
         private void DepHead1_Load(object sender, EventArgs e)
         {
-            LoadSemesters();
-            LoadYears();
         }
 
-        // Method to load semesters into the combo box
-        private void LoadSemesters()
-        {
-            try
-            {
-                string query = "SELECT DISTINCT term FROM semesters";
-                using (var reader = DatabaseHelper.Instance.getData(query))
-                {
-                    while (reader.Read())
-                    {
-                        comboBox3.Items.Add(reader["term"].ToString());
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("An error occurred while loading semesters: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        // Method to load years into the combo box
+        
         private void LoadYears()
         {
             try
             {
-                string query = "SELECT DISTINCT year FROM semesters";
-                using (var reader = DatabaseHelper.Instance.getData(query))
+                var reader = DeapHead1DL.LoadYears();
+                while (reader.Read())
                 {
-                    while (reader.Read())
-                    {
-                        comboBox4.Items.Add(reader["year"].ToString());
-                    }
+                    comboBox4.Items.Add(reader["year"].ToString());
                 }
             }
+
             catch (Exception ex)
             {
                 MessageBox.Show("An error occurred while loading years: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -124,6 +98,17 @@ namespace MidProject
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = null;
+            DeapHead1DL.LoadData();
+            dataGridView1.DataSource = DeapHead1DL.faculty_courses;
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
