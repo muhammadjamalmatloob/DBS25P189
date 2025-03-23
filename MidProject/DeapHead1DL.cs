@@ -47,13 +47,23 @@ namespace MidProject
             var reader = DatabaseHelper.Instance.getData(q1);
             reader.Read();
             string email = reader["email"].ToString();
-            string q2 = $"Select Sum(contact_hours) as s From faculty_courses Natural join courses Natural join faculty f Where email = '{email}' Group by faculty_id";
+            string q2 = $"Select Sum(contact_hours) as hours From faculty_courses Natural join courses Natural join faculty f Where email = '{email}' Group by faculty_id";
             var reader1 = DatabaseHelper.Instance.getData(q2);
             reader1.Read();
-            string sum = reader1["s"].ToString();
-            string query = $"Update faculty f set total_teaching_hours = {sum} Where f.email = '{email}'";
+            string sum = reader1["hours"].ToString();
+            string query = $"Update faculty set total_teaching_hours = {sum} Where email = '{email}'";
             int r = DatabaseHelper.Instance.Update(query);
-            return 1;
+            return r;
+        }
+        public static int DeleteFacultyCourse(DeapHead1BL fc)
+        {
+            string query = $"Delete From faculty_courses Where " +
+                $"faculty_id = (Select faculty_id From faculty Where name = '{fc.name}') and " +
+                $"course_id = (Select course_id From courses Where course_name = '{fc.course_name}' and course_type = '{fc.course_type}') and " +
+                $"semester_id = (Select semester_id From semesters Where term = '{fc.term}' and year = {fc.year})";
+
+            int r = DatabaseHelper.Instance.Update(query);
+            return r;
         }
     }
 }

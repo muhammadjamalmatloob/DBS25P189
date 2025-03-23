@@ -95,7 +95,7 @@ namespace MidProject
             new DepHead5().Show();
         }
 
-        // Event handler for the Profile button
+        
         private void button8_Click(object sender, EventArgs e)
         {
             this.Hide();

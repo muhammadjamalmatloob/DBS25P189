@@ -26,11 +26,24 @@ namespace MidProject
                 courses.Add(new Admin5BL(reader["course_name"].ToString(), reader["course_type"].ToString(), Convert.ToInt32(reader["credit_hours"]), Convert.ToInt32(reader["contact_hours"])));
             }
         }
-        public static int Update(string colname, string item, int id)
+        public static bool IsValid(string name,string type)
         {
-            string query = $"Update courses set {colname} = '{item}' where course_id = {id + 1};";
-            int row = DatabaseHelper.Instance.Update(query);
-            return row;
+            string query = $"Select count(*) From courses where course_name = '{name}' and course_type = {type}";
+            var reader = DatabaseHelper.Instance.getData(query);
+            return (Convert.ToInt32(reader.Read())) == 0;
+        }
+        public static bool NotAssigned(string name, string type)
+        {
+            string query = $"Select count(*) From courses Join faculty_course where course_name = '{name}' and course_type = {type}";
+            var reader = DatabaseHelper.Instance.getData(query);
+            return (Convert.ToInt32(reader.Read())) == 0;
+        }
+        public static int DeleteCourse(Admin5BL c)
+        {
+            string query = $"Delete from courses Where" +
+                $" course_name = '{c.course_name}' and course_type = '{c.course_type}';";
+            int r = DatabaseHelper.Instance.Update(query);
+            return r;
         }
     }
 }

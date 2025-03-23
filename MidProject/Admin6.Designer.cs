@@ -56,6 +56,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button16 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -95,7 +96,6 @@
             this.button15.TabIndex = 164;
             this.button15.Text = "Refresh";
             this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += button15_Click;
             // 
             // button11
             // 
@@ -264,7 +264,6 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(391, 242);
             this.dataGridView2.TabIndex = 162;
-            this.dataGridView2.CellValueChanged += DataGridView2_CellValueChanged;
             // 
             // button13
             // 
@@ -344,13 +343,12 @@
             this.button12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.button12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button12.Location = new System.Drawing.Point(549, 269);
+            this.button12.Location = new System.Drawing.Point(298, 269);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(119, 32);
             this.button12.TabIndex = 161;
             this.button12.Text = "Add";
             this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += button12_Click;
             // 
             // label7
             // 
@@ -448,11 +446,29 @@
             this.panel2.Size = new System.Drawing.Size(273, 538);
             this.panel2.TabIndex = 157;
             // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button16.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button16.Location = new System.Drawing.Point(574, 271);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(119, 32);
+            this.button16.TabIndex = 168;
+            this.button16.Text = "Delete";
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
             // Admin6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 668);
+            this.Controls.Add(this.button16);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button15);
@@ -521,5 +537,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button16;
     }
 }

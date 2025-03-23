@@ -12,12 +12,14 @@ namespace MidProject
         public string title {  get; set; }
         public string term {  get; set; }
         public int year { get; set; } 
-        public DepHead2BL(string name, string title, string term, int year)
+        public int supervision_hours { get; set; }
+        public DepHead2BL(string name, string title, string term, int year, int supervision_hours)
         {
             this.title = title;
             this.name = name;
             this.term = term;
             this.year = year;
+            this.supervision_hours = supervision_hours;
         }
     }
 }

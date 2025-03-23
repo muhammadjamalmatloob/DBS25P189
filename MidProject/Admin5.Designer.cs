@@ -58,6 +58,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button16 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -72,7 +73,7 @@
             this.button15.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.button15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button15.Location = new System.Drawing.Point(542, 624);
+            this.button15.Location = new System.Drawing.Point(563, 624);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(119, 32);
             this.button15.TabIndex = 150;
@@ -97,7 +98,7 @@
             this.button12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.button12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button12.Location = new System.Drawing.Point(549, 269);
+            this.button12.Location = new System.Drawing.Point(429, 279);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(119, 32);
             this.button12.TabIndex = 147;
@@ -473,11 +474,29 @@
             this.comboBox1.Size = new System.Drawing.Size(139, 21);
             this.comboBox1.TabIndex = 155;
             // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button16.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button16.Location = new System.Drawing.Point(664, 279);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(119, 32);
+            this.button16.TabIndex = 156;
+            this.button16.Text = "Delete";
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
             // Admin5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 668);
+            this.Controls.Add(this.button16);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label4);
@@ -546,5 +565,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button16;
     }
 }

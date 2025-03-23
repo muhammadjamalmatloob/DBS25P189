@@ -29,11 +29,18 @@ namespace MidProject
             return row;
         }
 
-        public static int Update(string colname , string item, int id)
+        public static bool IsValid(string item)
         {
-            string query = $"Update consumables set {colname} = '{item}' where consumable_id = {id + 1};";
+            string query = $"Select count(*) From consumables where item_name = '{item}'";
+            var reader = DatabaseHelper.Instance.getData(query);
+            return (Convert.ToInt32(reader.Read())) == 0;
+        }
+        
+        public static int DeleteItem(string item)
+        {
+            string query = $"delete from consumables Where item_name = '{item}';";
             int row = DatabaseHelper.Instance.Update(query);
-            return row;  
+            return row;
         }
     }
 }

@@ -56,6 +56,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -93,7 +94,6 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += button1_Click;
             // 
             // panel1
             // 
@@ -255,13 +255,13 @@
             this.button10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.button10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button10.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button10.Location = new System.Drawing.Point(299, 207);
+            this.button10.Location = new System.Drawing.Point(188, 207);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(83, 32);
             this.button10.TabIndex = 57;
             this.button10.Text = "Assign";
             this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += button10_Click;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // label7
             // 
@@ -367,6 +367,7 @@
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.Controls.Add(this.button11);
             this.panel3.Controls.Add(this.button5);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.dataGridView1);
@@ -441,6 +442,23 @@
             this.panel2.Size = new System.Drawing.Size(273, 538);
             this.panel2.TabIndex = 21;
             // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button11.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button11.Location = new System.Drawing.Point(375, 207);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(120, 32);
+            this.button11.TabIndex = 64;
+            this.button11.Text = "De-Assign";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
+            // 
             // DepHead1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -492,5 +510,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button11;
     }
 }

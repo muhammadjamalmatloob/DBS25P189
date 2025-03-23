@@ -24,16 +24,14 @@ namespace MidProject
         {
             try
             {
-                // Query to fetch user details based on the logged-in username
-                string query = $"SELECT u.username, u.email, l.value AS role FROM users u JOIN lookup l ON u.role_id = l.lookup_id WHERE u.username = '{loggedInusername}' ";
 
-                MySqlDataReader reader = DatabaseHelper.Instance.getData(query);
-                if (reader.Read()) // If user data is found
+                var reader = AdminProfileDL.LoadProfileData(loggedInusername);
+                if (reader.Read()) 
                 {
-                    // Display the user's details in the form
-                    label6.Text = "Email: " + reader["email"].ToString(); // Email
-                    label7.Text = "Username: " + reader["username"].ToString(); // Username
-                    label3.Text = "Role: " + reader["role"].ToString(); // Role
+                    
+                    label6.Text = "Email: " + reader["email"].ToString(); 
+                    label7.Text = "Username: " + reader["username"].ToString();
+                    label3.Text = "Role: " + reader["role"].ToString(); 
                 }
                 else
                 {

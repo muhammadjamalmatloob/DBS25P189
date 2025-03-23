@@ -52,7 +52,7 @@ namespace MidProject
                                 MessageBox.Show("Login successful! Opening Faculty Member Dashboard.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                                 this.Hide();
                                 
-                                new FacultyProfile().Show();
+                                new FacultyProfile(username).Show();
                                 break;
                             case "Admin":
                                 MessageBox.Show("Login successful! Opening Administrative Staff Dashboard.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);

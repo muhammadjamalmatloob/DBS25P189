@@ -118,6 +118,10 @@
   <ItemGroup>
     <Compile Include="Admin10BL.cs" />
     <Compile Include="Admin10DL.cs" />
+    <Compile Include="Admin7BL.cs" />
+    <Compile Include="Admin7DL.cs" />
+    <Compile Include="Admin8BL.cs" />
+    <Compile Include="Admin8DL.cs" />
     <Compile Include="Admin9BL.cs" />
     <Compile Include="Admin1.cs">
       <SubType>Form</SubType>
@@ -197,6 +201,7 @@
     <Compile Include="AdminProfile.Designer.cs">
       <DependentUpon>AdminProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminProfileDL.cs" />
     <Compile Include="DatabaseHelper.cs" />
     <Compile Include="DeapHead1BL.cs" />
     <Compile Include="DeapHead1DL.cs" />
@@ -226,42 +231,56 @@
     <Compile Include="DepHead3.Designer.cs">
       <DependentUpon>DepHead3.cs</DependentUpon>
     </Compile>
+    <Compile Include="DepHead3BL.cs" />
+    <Compile Include="DepHead3DL.cs" />
     <Compile Include="DepHead4.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DepHead4.Designer.cs">
       <DependentUpon>DepHead4.cs</DependentUpon>
     </Compile>
+    <Compile Include="DepHead4BL.cs" />
+    <Compile Include="DepHead4DL.cs" />
     <Compile Include="DepHead5.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DepHead5.Designer.cs">
       <DependentUpon>DepHead5.cs</DependentUpon>
     </Compile>
+    <Compile Include="DepHead5BL.cs" />
+    <Compile Include="DepHead5DL.cs" />
+    <Compile Include="DepHeadDL.cs" />
     <Compile Include="Faculty1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Faculty1.Designer.cs">
       <DependentUpon>Faculty1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Faculty1BL.cs" />
+    <Compile Include="Faculty1DL.cs" />
     <Compile Include="Faculty2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Faculty2.Designer.cs">
       <DependentUpon>Faculty2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Faculty2BL.cs" />
+    <Compile Include="Faculty2DL.cs" />
     <Compile Include="Faculty3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Faculty3.Designer.cs">
       <DependentUpon>Faculty3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Faculty3BL.cs" />
+    <Compile Include="Faculty3DL.cs" />
     <Compile Include="FacultyProfile.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FacultyProfile.Designer.cs">
       <DependentUpon>FacultyProfile.cs</DependentUpon>
     </Compile>
+    <Compile Include="FacultyProfileDL.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>

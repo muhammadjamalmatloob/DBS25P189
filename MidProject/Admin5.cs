@@ -40,6 +40,11 @@ namespace MidProject
                 MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            else if (!Admin5DL.IsValid(course_name,course_type))
+            {
+                MessageBox.Show("Duplication not allowed.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
             try
             {
                 int row = Admin5DL.AddCourse(new Admin5BL(course_name,course_type,Convert.ToInt32(credit_hours),contact_hours));
@@ -67,33 +72,7 @@ namespace MidProject
         }
         private void DataGridView2_CellValueChanged(object sender, System.Windows.Forms.DataGridViewCellEventArgs e)
         {
-            int row = e.RowIndex;
-            int col = e.ColumnIndex;
-            string newvalue = dataGridView2.Rows[row].Cells[col].Value.ToString();
-            string colname = dataGridView2.Columns[col].HeaderText;
-            if (string.IsNullOrEmpty(newvalue))
-            {
-                MessageBox.Show("Not able to assign null value.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                dataGridView2.Rows[row].Cells[col].Value = "Error";
-                return;
-            }
-            try
-            {
-                int r = Admin5DL.Update(colname, newvalue, row);
-                if (r > 0)
-                {
-                    MessageBox.Show("Updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    ClearForm();
-                }
-                else
-                {
-                    MessageBox.Show("Not Able to Update.", "Error" + row, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            
         }
 
         private void button15_Click(object sender, EventArgs e)
@@ -101,6 +80,45 @@ namespace MidProject
             dataGridView2.DataSource = null;
             Admin5DL.LoadData();
             dataGridView2.DataSource = Admin5DL.courses;
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            string course_name = textBox3.Text;
+            string course_type = comboBox1.SelectedItem?.ToString();
+            string credit_hours = textBox2.Text;
+            int contact_hours = course_type == "Lab" ? Convert.ToInt32(credit_hours) * 3 : Convert.ToInt32(credit_hours);
+
+            if (string.IsNullOrEmpty(course_name) || string.IsNullOrEmpty(course_type)
+                || string.IsNullOrEmpty(credit_hours))
+            {
+                MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            if (!Admin5DL.NotAssigned(course_name, course_type))
+            {
+                MessageBox.Show("Can't delete because it is assigned to a Faculty member.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            try
+            {
+                int row = Admin5DL.DeleteCourse(new Admin5BL(course_name, course_type, Convert.ToInt32(credit_hours), contact_hours));
+                
+                if (row > 0)
+                {
+                    MessageBox.Show("Course deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ClearForm();
+                }
+                else
+                {
+                    MessageBox.Show("Failed to delete course.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

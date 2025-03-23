@@ -110,5 +110,45 @@ namespace MidProject
         {
             Application.Exit();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            string courseName = textBox1.Text;
+            string courseType = textBox2.Text;
+            string facultyMember = textBox3.Text;
+            string semester = comboBox3.SelectedItem?.ToString();
+            string year = comboBox4.SelectedItem?.ToString();
+
+            
+            if (string.IsNullOrEmpty(courseName) || string.IsNullOrEmpty(courseType) ||
+                string.IsNullOrEmpty(facultyMember) || string.IsNullOrEmpty(semester) ||
+                string.IsNullOrEmpty(year))
+            {
+                MessageBox.Show("Please fill all fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            try
+            {
+
+
+                int r = DeapHead1DL.DeleteFacultyCourse(new DeapHead1BL(facultyMember, courseName, courseType, semester, Convert.ToInt32(year)));
+                r = DeapHead1DL.UpdateTeachingHours(new DeapHead1BL(facultyMember, courseName, courseType, semester, Convert.ToInt32(year)));
+
+                if (r > 0)
+                {
+                    MessageBox.Show("Course De-assigned successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ClearForm();
+                }
+                else
+                {
+                    MessageBox.Show("Course was not assigned to " + facultyMember, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

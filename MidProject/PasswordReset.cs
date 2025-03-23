@@ -35,6 +35,7 @@ namespace MidProject
                     textBox2.Visible = true; 
                     button1.Visible = true;
                     label4.Visible = true;
+                    panel3.Visible = true;
                     button2.Enabled = false; 
                 }
                 else
@@ -102,6 +103,8 @@ namespace MidProject
                 label3.Text = "New Password";
                 label4.Text = "Confirm Password";
                 button3.Visible = true;
+                textBox1.Clear();
+                textBox2.Clear();
             }
             else
             {
@@ -123,9 +126,9 @@ namespace MidProject
                 MessageBox.Show("Enter same password in both fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            else if (p1.Length < 8)
+            else if (!PasswordResetDL.IsPasswordValidWithErrors(p1).isValid)
             {
-                MessageBox.Show("Password should contain at least 8 caracters.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(PasswordResetDL.IsPasswordValidWithErrors(p1).errorMessage, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             try
@@ -133,7 +136,7 @@ namespace MidProject
                 int r = PasswordResetDL.UpdatePassword(p1, userEmail);
                 if (r > 0)
                 {
-                    MessageBox.Show("Course update successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Password updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
