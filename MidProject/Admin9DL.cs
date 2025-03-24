@@ -26,11 +26,26 @@ namespace MidProject
                 rooms.Add(new Admin9BL(reader["room_name"].ToString(), reader["room_type"].ToString(), Convert.ToInt32(reader["capacity"])));
             }
         }
-        public static int Update(string colname, string item, int id)
+        public static bool IsValid(string name,string type)
         {
-            string query = $"Update rooms set {colname} = '{item}' where room_id = {id + 1};";
-            int row = DatabaseHelper.Instance.Update(query);
-            return row;
+            string query = $"Select count(*) From rooms where room_name = '{name}' and room_type = '{type}'";
+            var reader = DatabaseHelper.Instance.getData(query);
+            reader.Read();
+            return (Convert.ToInt32(reader["count(*)"])) == 0;
+        }
+        public static bool NotAssigned(string name, string type)
+        {
+            string query = $"Select count(*) From rooms Natural join faculty_room_allocations where room_name = '{name}' and room_type = '{type}'";
+            var reader = DatabaseHelper.Instance.getData(query);
+            reader.Read();
+            return (Convert.ToInt32(reader["count(*)"])) == 0;
+        }
+        public static int DeleteRoom(Admin9BL rm)
+        {
+            string query = $"delete from rooms where " +
+                $" room_name = '{rm.room_name}' and room_type = '{rm.room_type}';";
+            int r = DatabaseHelper.Instance.Update(query);
+            return r;
         }
     }
 }

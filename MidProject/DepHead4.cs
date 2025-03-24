@@ -7,17 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.ReportingServices.ReportProcessing.ReportObjectModel;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace MidProject
 {
     public partial class DepHead4 : Form
     {
-        public DepHead4()
+        string user;
+        public DepHead4(string user)
         {
             InitializeComponent();
             DepHead4DL.LoadData();
             dataGridView1.DataSource = DepHead4DL.faculty_roles;
+            this.user = user;
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -137,6 +140,53 @@ namespace MidProject
             dataGridView1.DataSource = null;
             DepHead4DL.LoadData();
             dataGridView1.DataSource = DepHead4DL.faculty_roles;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead1(user).Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead2(user).Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead5(user).Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead3(user).Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead4(user).Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead(user).Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
         }
     }
 }

@@ -26,11 +26,26 @@ namespace MidProject
                 projects.Add(new Admin6BL(reader["title"].ToString(), reader["description"].ToString()));
             }
         }
-        public static int Update(string colname, string item, int id)
+        public static bool IsValid(string title)
         {
-            string query = $"Update projects set {colname} = '{item}' where project_id = {id + 1};";
-            int row = DatabaseHelper.Instance.Update(query);
-            return row;
+            string query = $"Select count(*) From projects where title = '{title}'";
+            var reader = DatabaseHelper.Instance.getData(query);
+            reader.Read();
+            return (Convert.ToInt32(reader["count(*)"])) == 0;
+        }
+        public static bool NotAssigned(string title)
+        {
+            string query = $"Select count(*) From projects Natural join faculty_projects where title = '{title}'";
+            var reader = DatabaseHelper.Instance.getData(query);
+            reader.Read();
+            return (Convert.ToInt32(reader["count(*)"])) == 0;
+        }
+        public static int DeleteProject(Admin6BL p)
+        {
+            string query = $"delete from projects where" +
+                $" title = '{p.title}' and description = '{p.description}');";
+            int r = DatabaseHelper.Instance.Update(query);
+            return r;
         }
     }
 }

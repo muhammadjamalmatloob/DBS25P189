@@ -9,12 +9,14 @@ namespace MidProject
     {
         
         private string loggedInUsername;
+        string user;
 
         public DepHead(string username)
         {
             InitializeComponent();
             loggedInUsername = username; 
-            LoadProfileData(); 
+            LoadProfileData();
+            user = username;
         }
 
         
@@ -64,35 +66,35 @@ namespace MidProject
         private void button7_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new DepHead1().Show();
+            new DepHead1(user).Show();
         }
 
         
         private void button6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new DepHead2().Show();
+            new DepHead2(user).Show();
         }
 
         
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new DepHead3().Show();
+            new DepHead3(user).Show();
         }
 
         
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new DepHead4().Show();
+            new DepHead4(user).Show();
         }
 
         
         private void button9_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new DepHead5().Show();
+            new DepHead5(user).Show();
         }
 
         
@@ -110,6 +112,41 @@ namespace MidProject
         private void button7_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead5(user).Show();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead3(user).Show();
+        }
+
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead4(user).Show();
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead(user).Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
         }
     }
 }

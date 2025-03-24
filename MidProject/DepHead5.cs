@@ -8,17 +8,20 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.ReportingServices.ReportProcessing.ReportObjectModel;
 
 namespace MidProject
 {
     public partial class DepHead5 : Form
     {
-        public DepHead5()
+        string user;
+        public DepHead5(string user)
         {
             InitializeComponent();
             DepHead5DL.LoadData();
             dataGridView1.DataSource = DepHead5DL.requests;
             AddButtons();
+            this.user = user;
         }
         private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -68,6 +71,53 @@ namespace MidProject
             dataGridView1.DataSource = null;
             DepHead5DL.LoadData();
             dataGridView1.DataSource = DepHead5DL.requests;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead3(user).Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead2(user).Show();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead1(user).Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead5(user).Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead4(user).Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead(user).Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
         }
     }
 }

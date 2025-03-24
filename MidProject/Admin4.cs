@@ -11,14 +11,16 @@ using Google.Protobuf.WellKnownTypes;
 
 namespace MidProject
 {
+    
     public partial class Admin4 : Form
     {
-        public Admin4()
+        string user;
+        public Admin4(string user)
         {
             InitializeComponent();
             Admin4DL.LoadData();
             this.dataGridView2.DataSource = Admin4DL.items;
-            
+            this.user = user;
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -102,6 +104,83 @@ namespace MidProject
             {
                 MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin1(user).Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin2(user).Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin3(user).Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin4(user).Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin5(user).Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin6(user).Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin8(user).Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin7(user).Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin9(user).Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Admin10(user).Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AdminProfile(user).Show();
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 

@@ -37,6 +37,7 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.button10 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,7 +55,6 @@
             this.profile = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -182,6 +182,18 @@
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label7.Location = new System.Drawing.Point(174, 3);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(294, 40);
+            this.label7.TabIndex = 54;
+            this.label7.Text = "Faculty Admin Roles";
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -277,6 +289,7 @@
             this.button9.TabIndex = 10;
             this.button9.Text = "Faculty Admin Roles";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button2
             // 
@@ -293,6 +306,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button7
             // 
@@ -309,6 +323,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "Assign Courses";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -325,6 +340,7 @@
             this.button6.TabIndex = 7;
             this.button6.Text = "Assign Final Year \r\nProject Supervision";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button4
             // 
@@ -341,6 +357,7 @@
             this.button4.TabIndex = 7;
             this.button4.Text = "Assign ClassRooms \r\nand Labs";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -357,6 +374,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "Faculty Requests";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button8
             // 
@@ -373,6 +391,7 @@
             this.button8.TabIndex = 8;
             this.button8.Text = "Profile";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button1
             // 
@@ -389,6 +408,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // profile
             // 
@@ -422,18 +442,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1039, 130);
             this.panel1.TabIndex = 29;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label7.Location = new System.Drawing.Point(174, 3);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(294, 40);
-            this.label7.TabIndex = 54;
-            this.label7.Text = "Faculty Admin Roles";
             // 
             // DepHead4
             // 

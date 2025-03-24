@@ -7,17 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.ReportingServices.ReportProcessing.ReportObjectModel;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace MidProject
 {
     public partial class DepHead2 : Form
     {
-        public DepHead2()
+        string user;
+        public DepHead2(string user)
         {
             InitializeComponent();
             DepHead2DL.LoadData();
             dataGridView1.DataSource = DepHead2DL.faculty_projects;
+            this.user = user;
         }
         private void button10_Click(object sender, EventArgs e)
         {
@@ -141,6 +144,53 @@ namespace MidProject
             {
                 MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead1(user).Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead2(user).Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead5(user).Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead3(user).Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead4(user).Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new DepHead(user).Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
         }
     }
 }

@@ -50,7 +50,7 @@ namespace MidProject
             string q2 = $"Select Sum(contact_hours) as hours From faculty_courses Natural join courses Natural join faculty f Where email = '{email}' Group by faculty_id";
             var reader1 = DatabaseHelper.Instance.getData(q2);
             reader1.Read();
-            string sum = reader1["hours"].ToString();
+            int sum = Convert.ToInt32(reader1["hours"]);
             string query = $"Update faculty set total_teaching_hours = {sum} Where email = '{email}'";
             int r = DatabaseHelper.Instance.Update(query);
             return r;

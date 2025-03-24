@@ -88,6 +88,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(510, 242);
             this.dataGridView2.TabIndex = 148;
+            this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // button12
             // 
@@ -117,6 +118,7 @@
             this.label7.Size = new System.Drawing.Size(112, 40);
             this.label7.TabIndex = 146;
             this.label7.Text = "Course";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // textBox3
             // 
@@ -151,6 +153,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1039, 130);
             this.panel1.TabIndex = 142;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel4
             // 
@@ -158,6 +161,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(711, 431);
             this.panel4.TabIndex = 32;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // button1
             // 
@@ -174,6 +178,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel3
             // 
@@ -183,6 +188,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(711, 431);
             this.panel3.TabIndex = 31;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // profile
             // 
@@ -191,6 +197,7 @@
             this.profile.Name = "profile";
             this.profile.Size = new System.Drawing.Size(675, 370);
             this.profile.TabIndex = 3;
+            this.profile.Paint += new System.Windows.Forms.PaintEventHandler(this.profile_Paint);
             // 
             // label1
             // 
@@ -203,6 +210,7 @@
             this.label1.Size = new System.Drawing.Size(791, 47);
             this.label1.TabIndex = 0;
             this.label1.Text = "Faculty Workload and Resource Allocation System";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button13
             // 
@@ -219,6 +227,7 @@
             this.button13.TabIndex = 141;
             this.button13.Text = "Semester";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -235,6 +244,7 @@
             this.button14.TabIndex = 141;
             this.button14.Text = "Logout";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // panel2
             // 
@@ -257,6 +267,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(273, 538);
             this.panel2.TabIndex = 143;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // button11
             // 
@@ -273,6 +284,7 @@
             this.button11.TabIndex = 91;
             this.button11.Text = "Projects";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -289,6 +301,7 @@
             this.button10.TabIndex = 89;
             this.button10.Text = "Courses";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button5
             // 
@@ -305,6 +318,7 @@
             this.button5.TabIndex = 16;
             this.button5.Text = "Consumables";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button2
             // 
@@ -321,6 +335,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Rooms";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button9
             // 
@@ -337,6 +352,7 @@
             this.button9.TabIndex = 17;
             this.button9.Text = "Delete Faculty";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button4
             // 
@@ -353,6 +369,7 @@
             this.button4.TabIndex = 15;
             this.button4.Text = "Profile";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button8
             // 
@@ -369,6 +386,7 @@
             this.button8.TabIndex = 8;
             this.button8.Text = "Faculty Courses\r\nSchedule ";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -385,6 +403,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "Faculty Profiles";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -401,6 +420,7 @@
             this.button6.TabIndex = 7;
             this.button6.Text = "Add Users";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button3
             // 
@@ -417,6 +437,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "    Approved Requests";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label2
             // 
@@ -442,6 +463,7 @@
             this.label3.Size = new System.Drawing.Size(129, 30);
             this.label3.TabIndex = 151;
             this.label3.Text = "Credit Hours";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // textBox2
             // 
@@ -449,6 +471,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(139, 20);
             this.textBox2.TabIndex = 154;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label4
             // 
@@ -461,6 +484,7 @@
             this.label4.Size = new System.Drawing.Size(56, 30);
             this.label4.TabIndex = 153;
             this.label4.Text = "Type";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // comboBox1
             // 
@@ -473,6 +497,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(139, 21);
             this.comboBox1.TabIndex = 155;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button16
             // 
@@ -512,7 +537,7 @@
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Admin5";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin5";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.panel1.ResumeLayout(false);

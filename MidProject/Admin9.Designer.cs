@@ -58,6 +58,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button16 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -97,7 +98,6 @@
             this.button15.TabIndex = 176;
             this.button15.Text = "Refresh";
             this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += button15_Click;
             // 
             // panel4
             // 
@@ -167,6 +167,7 @@
             this.button13.TabIndex = 141;
             this.button13.Text = "Semester";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button3
             // 
@@ -183,6 +184,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "    Approved Requests";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button14
             // 
@@ -199,6 +201,7 @@
             this.button14.TabIndex = 141;
             this.button14.Text = "Logout";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // dataGridView2
             // 
@@ -207,7 +210,6 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(391, 242);
             this.dataGridView2.TabIndex = 174;
-            this.dataGridView2.CellValueChanged += DataGridView2_CellValueChanged;
             // 
             // button11
             // 
@@ -224,6 +226,7 @@
             this.button11.TabIndex = 91;
             this.button11.Text = "Projects";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -240,6 +243,7 @@
             this.button10.TabIndex = 89;
             this.button10.Text = "Courses";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button5
             // 
@@ -256,6 +260,7 @@
             this.button5.TabIndex = 16;
             this.button5.Text = "Consumables";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button2
             // 
@@ -272,6 +277,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Rooms";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button9
             // 
@@ -288,6 +294,7 @@
             this.button9.TabIndex = 17;
             this.button9.Text = "Delete Faculty";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button4
             // 
@@ -304,6 +311,7 @@
             this.button4.TabIndex = 15;
             this.button4.Text = "Profile";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button8
             // 
@@ -320,6 +328,7 @@
             this.button8.TabIndex = 8;
             this.button8.Text = "Faculty Courses\r\nSchedule ";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -336,6 +345,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "Faculty Profiles";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button12
             // 
@@ -346,13 +356,12 @@
             this.button12.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
             this.button12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button12.Location = new System.Drawing.Point(549, 269);
+            this.button12.Location = new System.Drawing.Point(429, 271);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(119, 32);
             this.button12.TabIndex = 173;
             this.button12.Text = "Add";
             this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += button12_Click;
             // 
             // label7
             // 
@@ -427,6 +436,7 @@
             this.button6.TabIndex = 7;
             this.button6.Text = "Add Users";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // panel2
             // 
@@ -477,11 +487,29 @@
             this.comboBox1.Size = new System.Drawing.Size(139, 21);
             this.comboBox1.TabIndex = 180;
             // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button16.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button16.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button16.Location = new System.Drawing.Point(678, 271);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(119, 32);
+            this.button16.TabIndex = 181;
+            this.button16.Text = "Delete";
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
             // Admin9
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 668);
+            this.Controls.Add(this.button16);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox2);
@@ -547,5 +575,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button16;
     }
 }

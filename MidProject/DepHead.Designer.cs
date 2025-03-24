@@ -144,7 +144,7 @@ namespace MidProject
             this.button8.TabIndex = 8;
             this.button8.Text = "Profile";
             this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += button8_Click;
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // label1
             // 
@@ -207,7 +207,7 @@ namespace MidProject
             this.button4.TabIndex = 7;
             this.button4.Text = "Assign ClassRooms \r\n and Labs";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += button4_Click;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button3
             // 
@@ -224,7 +224,7 @@ namespace MidProject
             this.button3.TabIndex = 7;
             this.button3.Text = "Faculty Requests";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += button3_Click;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button2
             // 
@@ -241,7 +241,7 @@ namespace MidProject
             this.button2.TabIndex = 6;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += button2_Click;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // profile
             // 
@@ -279,7 +279,7 @@ namespace MidProject
             this.button1.TabIndex = 5;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += button1_Click;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // panel2
             // 
@@ -313,7 +313,7 @@ namespace MidProject
             this.button9.TabIndex = 10;
             this.button9.Text = "Faculty Admin Roles";
             this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += button9_Click;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
             // 
             // DepHead
             // 

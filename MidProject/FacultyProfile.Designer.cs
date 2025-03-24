@@ -45,12 +45,12 @@ namespace MidProject
             this.panel2 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -72,6 +72,7 @@ namespace MidProject
             this.button1.TabIndex = 5;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button8
             // 
@@ -88,6 +89,7 @@ namespace MidProject
             this.button8.TabIndex = 8;
             this.button8.Text = "Profile";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -202,6 +204,7 @@ namespace MidProject
             this.button2.TabIndex = 6;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel3
             // 
@@ -216,6 +219,30 @@ namespace MidProject
             this.panel3.Size = new System.Drawing.Size(711, 431);
             this.panel3.TabIndex = 25;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F);
+            this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label4.Location = new System.Drawing.Point(38, 270);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 30);
+            this.label4.TabIndex = 99;
+            this.label4.Text = "Role";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F);
+            this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label3.Location = new System.Drawing.Point(38, 300);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(124, 30);
+            this.label3.TabIndex = 98;
+            this.label3.Text = "Designation";
             // 
             // label2
             // 
@@ -264,30 +291,6 @@ namespace MidProject
             this.label7.TabIndex = 95;
             this.label7.Text = "Username";
             this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 15.75F);
-            this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(38, 300);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 30);
-            this.label3.TabIndex = 98;
-            this.label3.Text = "Designation";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F);
-            this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label4.Location = new System.Drawing.Point(38, 270);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 30);
-            this.label4.TabIndex = 99;
-            this.label4.Text = "Role";
             // 
             // FacultyProfile
             // 

@@ -35,6 +35,8 @@ namespace MidProject
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -56,8 +58,6 @@ namespace MidProject
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -84,6 +84,40 @@ namespace MidProject
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(273, 538);
             this.panel2.TabIndex = 84;
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button13.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button13.Location = new System.Drawing.Point(17, 349);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(239, 43);
+            this.button13.TabIndex = 99;
+            this.button13.Text = "Rooms";
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button12.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.button12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button12.Location = new System.Drawing.Point(17, 389);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(239, 43);
+            this.button12.TabIndex = 92;
+            this.button12.Text = "Semester";
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button11
             // 
@@ -168,6 +202,7 @@ namespace MidProject
             this.button4.TabIndex = 15;
             this.button4.Text = "Profile";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button8
             // 
@@ -380,40 +415,6 @@ namespace MidProject
             this.label3.Size = new System.Drawing.Size(53, 30);
             this.label3.TabIndex = 98;
             this.label3.Text = "Role";
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.button12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button12.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button12.Location = new System.Drawing.Point(17, 389);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(239, 43);
-            this.button12.TabIndex = 92;
-            this.button12.Text = "Semester";
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.button13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button13.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button13.Location = new System.Drawing.Point(17, 349);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(239, 43);
-            this.button13.TabIndex = 99;
-            this.button13.Text = "Rooms";
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // AdminProfile
             // 

@@ -19,9 +19,9 @@ namespace MidProject
         {
             loggedInusername = username;
             InitializeComponent();
-            Load();
+            LoadData();
         }
-        public void Load()
+        public void LoadData()
         {
             try
             {
@@ -78,6 +78,23 @@ namespace MidProject
         {
             this.Hide();
             new Faculty2(loggedInusername).Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new FacultyProfile(loggedInusername).Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Login().Show();
         }
     }
 }

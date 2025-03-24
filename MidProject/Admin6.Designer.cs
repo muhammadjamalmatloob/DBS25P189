@@ -112,6 +112,7 @@
             this.button11.TabIndex = 91;
             this.button11.Text = "Projects";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button10
             // 
@@ -128,6 +129,7 @@
             this.button10.TabIndex = 89;
             this.button10.Text = "Courses";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button5
             // 
@@ -144,6 +146,7 @@
             this.button5.TabIndex = 16;
             this.button5.Text = "Consumables";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button2
             // 
@@ -160,6 +163,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Rooms";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button9
             // 
@@ -176,6 +180,7 @@
             this.button9.TabIndex = 17;
             this.button9.Text = "Delete Faculty";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button4
             // 
@@ -192,6 +197,7 @@
             this.button4.TabIndex = 15;
             this.button4.Text = "Profile";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button8
             // 
@@ -208,6 +214,7 @@
             this.button8.TabIndex = 8;
             this.button8.Text = "Faculty Courses\r\nSchedule ";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -224,6 +231,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "Faculty Profiles";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -240,6 +248,7 @@
             this.button6.TabIndex = 7;
             this.button6.Text = "Add Users";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button3
             // 
@@ -256,6 +265,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "    Approved Requests";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dataGridView2
             // 
@@ -280,6 +290,7 @@
             this.button13.TabIndex = 141;
             this.button13.Text = "Semester";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // panel4
             // 
@@ -423,6 +434,7 @@
             this.button14.TabIndex = 141;
             this.button14.Text = "Logout";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // panel2
             // 

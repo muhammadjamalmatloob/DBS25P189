@@ -33,7 +33,8 @@ namespace MidProject
         {
             string query = $"Select count(*) From consumables where item_name = '{item}'";
             var reader = DatabaseHelper.Instance.getData(query);
-            return (Convert.ToInt32(reader.Read())) == 0;
+            reader.Read();
+            return (Convert.ToInt32(reader["count(*)"])) == 0;
         }
         
         public static int DeleteItem(string item)

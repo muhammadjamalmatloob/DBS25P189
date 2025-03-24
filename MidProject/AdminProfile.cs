@@ -72,55 +72,61 @@ namespace MidProject
         private void button6_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Admin2().Show();
+            new Admin2(loggedInusername).Show();
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Admin3().Show();
+            new Admin3(loggedInusername).Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Admin4().Show();
+            new Admin4(loggedInusername).Show();
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Admin5().Show();
+            new Admin5(loggedInusername).Show();
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Admin6().Show();
+            new Admin6(loggedInusername).Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Admin7().Show();
+            new Admin7(loggedInusername).Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Admin8().Show();
+            new Admin8(loggedInusername).Show();
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Admin9().Show();
+            new Admin9(loggedInusername).Show();
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Admin10().Show();
+            new Admin10(loggedInusername).Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new AdminProfile(loggedInusername).Show();
         }
     }
 }

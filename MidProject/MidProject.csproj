@@ -202,6 +202,12 @@
       <DependentUpon>AdminProfile.cs</DependentUpon>
     </Compile>
     <Compile Include="AdminProfileDL.cs" />
+    <Compile Include="CoursesSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoursesSchedule.Designer.cs">
+      <DependentUpon>CoursesSchedule.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseHelper.cs" />
     <Compile Include="DeapHead1BL.cs" />
     <Compile Include="DeapHead1DL.cs" />
@@ -274,6 +280,12 @@
     </Compile>
     <Compile Include="Faculty3BL.cs" />
     <Compile Include="Faculty3DL.cs" />
+    <Compile Include="FacultyCoursesSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacultyCoursesSchedule.Designer.cs">
+      <DependentUpon>FacultyCoursesSchedule.cs</DependentUpon>
+    </Compile>
     <Compile Include="FacultyProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -333,6 +345,10 @@
     <EmbeddedResource Include="AdminProfile.resx">
       <DependentUpon>AdminProfile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CourseSchedule.rdlc" />
+    <EmbeddedResource Include="CoursesSchedule.resx">
+      <DependentUpon>CoursesSchedule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DepHead.resx">
       <DependentUpon>DepHead.cs</DependentUpon>
     </EmbeddedResource>
@@ -360,9 +376,13 @@
     <EmbeddedResource Include="Faculty3.resx">
       <DependentUpon>Faculty3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FacultyCoursesSchedule.resx">
+      <DependentUpon>FacultyCoursesSchedule.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FacultyProfile.resx">
       <DependentUpon>FacultyProfile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FCSchedule.rdlc" />
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -378,9 +398,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="User.rdlc" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Admin1BL.datasource" />
+    <None Include="Properties\DataSources\Admin8BL.datasource" />
     <None Include="Properties\DataSources\User.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -28,15 +28,17 @@ namespace MidProject
         }
         public static bool IsValid(string name,string type)
         {
-            string query = $"Select count(*) From courses where course_name = '{name}' and course_type = {type}";
+            string query = $"Select count(*) From courses where course_name = '{name}' and course_type = '{type}'";
             var reader = DatabaseHelper.Instance.getData(query);
-            return (Convert.ToInt32(reader.Read())) == 0;
+            reader.Read();
+            return (Convert.ToInt32(reader["count(*)"])) == 0;
         }
         public static bool NotAssigned(string name, string type)
         {
-            string query = $"Select count(*) From courses Join faculty_course where course_name = '{name}' and course_type = {type}";
+            string query = $"Select count(*) From courses Join faculty_courses where course_name = '{name}' and course_type = '{type}'";
             var reader = DatabaseHelper.Instance.getData(query);
-            return (Convert.ToInt32(reader.Read())) == 0;
+            reader.Read();
+            return (Convert.ToInt32(reader["count(*)"])) == 0;
         }
         public static int DeleteCourse(Admin5BL c)
         {

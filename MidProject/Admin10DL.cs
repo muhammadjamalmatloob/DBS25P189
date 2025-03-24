@@ -32,5 +32,12 @@ namespace MidProject
             int row = DatabaseHelper.Instance.Update(query);
             return row;
         }
+        public static bool IsValid(string term, string year)
+        {
+            string query = $"Select count(*) From semesters where term = '{term}' and year = '{Convert.ToInt32(year)}'";
+            var reader = DatabaseHelper.Instance.getData(query);
+            reader.Read();
+            return (Convert.ToInt32(reader["count(*)"])) == 0;
+        }
     }
 }

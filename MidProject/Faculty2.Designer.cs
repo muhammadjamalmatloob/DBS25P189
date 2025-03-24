@@ -108,6 +108,7 @@
             this.button8.TabIndex = 8;
             this.button8.Text = "Profile";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button7
             // 
@@ -124,6 +125,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "Assigned Courses";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -140,6 +142,7 @@
             this.button6.TabIndex = 7;
             this.button6.Text = "Assigned Projects \r\nSupervision";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button3
             // 
@@ -156,6 +159,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "Requests";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // profile
             // 
@@ -192,6 +196,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel2
             // 
@@ -222,6 +227,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel1
             // 

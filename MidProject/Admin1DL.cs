@@ -11,14 +11,16 @@ namespace MidProject
     internal class Admin1DL
     {
         public static List<Admin1BL> faculties = new List<Admin1BL>();
+        public static List<string> ids = new List<string>();
 
         public static void LoadData(string username)
         {
-            string query = $"SELECT u.username,f.name,u.email,contact,l.value as designation,f.research_area,f.total_teaching_hours FROM users u Natural join faculty f join lookup l ON designation_id = lookup_id";
+            string query = $"SELECT f.faculty_id,u.username,f.name,u.email,contact,l.value as designation,f.research_area,f.total_teaching_hours FROM users u Natural join faculty f join lookup l ON designation_id = lookup_id";
             var reader = DatabaseHelper.Instance.getData(query);
             faculties.Clear();
             while (reader.Read())
             {
+                ids.Add(reader["faculty_id"].ToString());
                 faculties.Add(new Admin1BL(reader["username"].ToString(), reader["name"].ToString(), reader["email"].ToString(), reader["contact"].ToString(), reader["designation"].ToString(), reader["research_area"].ToString(), Convert.ToInt32(reader["total_teaching_hours"])));
             }
         }
@@ -28,20 +30,20 @@ namespace MidProject
             int row;
             if (colname == "username")
             {
-                query = $"Update users set {colname} = '{item}' where user_id = (Select user_id From faculty Where faculty_id = {id + 1});";
+                query = $"Update users set {colname} = '{item}' where user_id = (Select user_id From faculty Where faculty_id = {ids[id]});";
                 row = DatabaseHelper.Instance.Update(query);
                 return row;
             }
             else if (colname == "email")
             {
-                query = $"Update users set {colname} = '{item}' where user_id = (Select user_id From faculty Where faculty_id = {id + 1});" +
-                    $" Update faculty f set {colname} = '{item}' where f.faculty_id = {id + 1}";
+                query = $"Update users set {colname} = '{item}' where user_id = (Select user_id From faculty Where faculty_id = {ids[id]});" +
+                    $" Update faculty f set {colname} = '{item}' where f.faculty_id = {ids[id]}";
                 row = DatabaseHelper.Instance.Update(query);
                 return row;
             }
             else if (colname == "contact" || colname == "research_area" || colname == "name")
             {
-                query = $"Update faculty f set {colname} = '{item}' where f.faculty_id = {id + 1};";
+                query = $"Update faculty f set {colname} = '{item}' where f.faculty_id = {ids[id]};";
                 row = DatabaseHelper.Instance.Update(query);
                 return row;
             }

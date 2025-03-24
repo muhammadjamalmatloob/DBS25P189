@@ -54,9 +54,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button11 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -95,6 +95,7 @@
             this.button9.TabIndex = 10;
             this.button9.Text = "Faculty Admin Roles";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button2
             // 
@@ -111,6 +112,7 @@
             this.button2.TabIndex = 6;
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button7
             // 
@@ -127,6 +129,7 @@
             this.button7.TabIndex = 7;
             this.button7.Text = "Assign Courses";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -143,6 +146,7 @@
             this.button6.TabIndex = 7;
             this.button6.Text = "Assign Final Year \r\nProject Supervision";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button4
             // 
@@ -159,6 +163,7 @@
             this.button4.TabIndex = 7;
             this.button4.Text = "Assign ClassRooms \r\nand Labs";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -175,6 +180,7 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "Faculty Requests";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button8
             // 
@@ -191,6 +197,7 @@
             this.button8.TabIndex = 8;
             this.button8.Text = "Profile";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button1
             // 
@@ -207,6 +214,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "X";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // profile
             // 
@@ -426,23 +434,6 @@
             this.panel3.Size = new System.Drawing.Size(711, 538);
             this.panel3.TabIndex = 25;
             // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.button11.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
-            this.button11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button11.Location = new System.Drawing.Point(375, 207);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(120, 32);
-            this.button11.TabIndex = 64;
-            this.button11.Text = "Unassign";
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(273, 88);
@@ -461,6 +452,23 @@
             this.label4.Size = new System.Drawing.Size(180, 30);
             this.label4.TabIndex = 65;
             this.label4.Text = "Supervision Hours";
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.button11.FlatAppearance.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.button11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button11.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button11.Location = new System.Drawing.Point(375, 207);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(120, 32);
+            this.button11.TabIndex = 64;
+            this.button11.Text = "Unassign";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // DepHead2
             // 
